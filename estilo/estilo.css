@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.col-md-10 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-md-6 {
+  width: 60%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-md-4 {
+  width: 40%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body {
+  background-color: #ededed;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  height: 140px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.contenido {
+  width: 70%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #e6573e;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+p, .bajada_experiencia {
+  font-size: 14px;
+}
+
+.texto-rojo {
+  color: #e6573e;
+}
+
+.texto-gris {
+  color: #8f8d93;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.contenedor-img {
+  text-align: center;
+  position: relative;
+  top: -90px;
+}
+
+img.foto-cathy {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #ededed;
+  text-align: center;
+}
+
+.columnas {
+  border-top: 2px solid #dedede;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.columnauno {
+  float: left;
+}
+
+.columnados {
+  float: left;
+}
+
+.segmento_educacion, .segmento_experiencia {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.globo {
+  background-color: #edeae2;
+  border-radius: 2px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.globo_transparente {
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+  width: 85%;
+}
+
+.ano_educacion {
+  float: left;
+  width: 10%;
+}
+
+.ano {
+  float: left;
+  width: 15%;
+  font-size: 13px;
+}
+
+ul.lista-contacto {
+  font-size: 14px;
+  padding-left: 30px;
+}
+
+.grafico_skills {
+  color: #fff;
+}
+
+.skill_generico {
+  background-color: #e6573e;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border-radius: 3px;
+}
+
+.skill_phyton {
+  width: 100%;
+}
+
+.skill_html {
+  width: 80%;
+}
+
+.skill_css {
+  width: 60%;
+}
+
+.skill_js {
+  width: 40%;
+}
+
+.skill_php {
+  width: 20%;
+}
+
+ul.idiomas {
+  list-style: none;
+}
+
+ul.idiomas li {
+  height: 40px;
+  border-bottom: 1px solid #dedede;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.nombre_idioma {
+  float: left;
+  width: 50%;
+}
+
+.estrellas {
+  font-size: 15px;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.etiqueta {
+  background-color: #a84f60;
+  padding: 5px;
+  border-radius: 2px;
+  color: #fff;
+  display: inline;
+  font-size: 14px;
+}
+
+.todos_los_hobbies {
+  padding-bottom: 15px;
+}
+
+@media (max-width:768px) {
+  .col-sm-10 {
+    width: 100%;
+  }
+
+  .contenido {
+    width: 96%;
+  }
+
+  h1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .ano_educacion, .ano {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .segmento_experiencia, .segmento_educacion {
+    padding-bottom: 20px;
+  }
+}
